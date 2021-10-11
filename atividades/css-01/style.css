@@ -1,0 +1,50 @@
+#linhaesquerdacima{ 
+    float: left;
+     font-family: Arial;
+     text-align: center;
+     padding: 10px;
+     font-size: 32px;
+     background-color:red;
+     width: 290px;
+     height: 35px; 
+     margin-top: 1px;
+    }
+      
+#linhadireitacima{
+    float: right;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: blue;
+    width: 260px;
+    height: 35px; 
+    margin-top: 1px;
+}
+
+#linhaesquerdabaixo{
+    float: left;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: yellow;
+    width: 290px;
+    height: 70px; 
+
+}
+
+#linhadireitabaixo{
+    float: right;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: green;
+    width: 260;
+    height: 70px; 
+
+}
+
+
+
