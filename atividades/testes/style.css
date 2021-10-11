@@ -1,0 +1,17 @@
+#principal {color: rgb(85, 173, 144);}
+
+html{background-image: url(https://m.extra.globo.com/incoming/24568735-e33-2b7/w640h360-PROP/mulan.jpg);}
+.pzin{
+    background-color: blueviolet;
+}
+img{ width:150px;
+    height: 150px;
+}     
+
+p { 
+    text-align: center;
+}
+
+img{
+    border: 4px solid rgb(16, 16, 77); 
+}
