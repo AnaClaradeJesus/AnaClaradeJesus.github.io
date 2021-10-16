@@ -1,0 +1,86 @@
+.cabeçalho{
+    color: rgb(123, 199, 24);
+    background-color: rgb(16, 65, 27);
+    text-align: center;
+    padding: 8px;
+    
+}
+
+.titulo{
+    animation: aparecer 2s;
+}
+@keyframes aparecer{
+    0%{
+       transform: rotateY(100deg);
+    }
+}
+.menu{
+    color: rgb(123, 199, 24);
+    background-color: rgb(16, 65, 27);
+    text-align: center;
+    padding: 8px;
+
+}
+.menu{
+    transform: scale(1.1);
+}
+
+nav ul li :hover{
+    background-color: rgb(29, 78, 55);
+    padding: 30px;
+    font-size: 17px;
+    color: crimson;
+    
+
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+
+}
+
+nav ul li a {
+
+   text-decoration: none;
+   color: rgb(123, 199, 24);
+
+}
+nav ul li a:hover {
+    border-radius: 10px;
+   cursor: pointer;
+   color: rgb(172, 62, 104);
+   border-bottom: 10px solid rgb(114, 32, 73);
+}
+nav ul li a:focus{
+    color: rgb(184, 255, 91);
+}
+.corpo{
+    background-color: #e8ec95;
+    margin: 50px;
+    padding: 14px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgb(49, 100, 60);
+}
+#nomemateria{
+    text-align: center;
+    color: rgb(216, 105, 1);
+}
+
+img{
+    width: 500px;
+    height: 700px;
+}
+#rodape{
+    color: rgb(123, 199, 24);
+    background-color: rgb(16, 65, 27);
+    text-align: center;
+    padding: 8px;
+}
