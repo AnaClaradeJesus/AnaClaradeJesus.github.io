@@ -1,0 +1,19 @@
+#introduçao{
+    text-align: justify;
+    display: flex;
+}
+#meio{
+    text-align: justify;
+    display: flex;
+}
+#img1{
+    margin-right: 60px;
+}
+ #img2{
+   margin-left: 60px;
+ }
+.alinharAoCentro{
+    justify-content: center;
+   display: flex;
+   padding: 10px;
+}
