@@ -1,0 +1,102 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 143, 0);
+    font-size: 18px;
+}
+.corpo{
+    border:10px solid rgb(46, 18, 18);
+    background-color: rgb(245, 241, 241);
+    margin: 50px;
+    padding: 14px;
+}
+#logo{
+    width: 800px;
+    height: 190px;
+    display: flex;
+    margin-left: 300px;
+    border: 4px rgb(46, 18, 18) solid;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+#img1{
+    height: 500px;
+    width: 600px;
+    margin-left: 350px;
+    border: 4px rgb(46, 18, 18) solid;
+    
+}
+#img2{
+    height: 500px;
+    width: 1000px;
+    margin-left: 200px;border: 4px rgb(46, 18, 18) solid;
+
+}
+.alinharAoCentro{
+    justify-content: center;
+   display: flex;
+   padding: 10px;
+}
+.titulo{
+    animation: aparecer 2s;
+}
+@keyframes aparecer{
+    0%{
+       transform: rotateY(100deg);
+    }
+}
+.menu{
+    animation: aparecer 2s;
+}
+@keyframes aparecer{
+    0%{
+       transform: rotateY(100deg);
+    }
+}
+.titulo:hover{
+    background-color: rgb(252, 113, 0);
+    padding: 8px;
+    color: rgb(0, 0, 0);
+}
+.menu{
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 113, 0);
+    text-align: center;
+    padding: 8px;
+    transform: scale(1.1);
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+ 
+
+}
+nav ul li a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+
+}
+
+nav ul li :hover{
+    background-color: rgb(252, 113, 0);
+    padding: 23px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    
+}
+#rodape{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(252, 143, 0);
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+}
+mark{
+background-color: rgb(53, 248, 167);
+}
